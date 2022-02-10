@@ -1,0 +1,20 @@
+current directory: /Users/gonzaloquiroga/Desktop/code/Tarea_1/.bundle/ruby/2.7.0/gems/date-3.2.2/ext/date
+/Users/gonzaloquiroga/.rbenv/versions/2.7.1/bin/ruby -I /Users/gonzaloquiroga/.rbenv/versions/2.7.1/lib/ruby/2.7.0 -r ./siteconf20220209-46180-1opoqm9.rb extconf.rb
+checking for timezone in time.h with  -Werror... yes
+checking for altzone in time.h with  -Werror... no
+creating Makefile
+
+current directory: /Users/gonzaloquiroga/Desktop/code/Tarea_1/.bundle/ruby/2.7.0/gems/date-3.2.2/ext/date
+make "DESTDIR=" clean
+
+current directory: /Users/gonzaloquiroga/Desktop/code/Tarea_1/.bundle/ruby/2.7.0/gems/date-3.2.2/ext/date
+make "DESTDIR="
+compiling date_core.c
+compiling date_parse.c
+compiling date_strftime.c
+compiling date_strptime.c
+linking shared-object date_core.bundle
+
+current directory: /Users/gonzaloquiroga/Desktop/code/Tarea_1/.bundle/ruby/2.7.0/gems/date-3.2.2/ext/date
+make "DESTDIR=" install
+/usr/local/bin/ginstall -c -m 0755 date_core.bundle ./.gem.20220209-46180-muy6hp
