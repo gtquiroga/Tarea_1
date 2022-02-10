@@ -39,11 +39,11 @@ class Markets
             end_timestamp = trades["trades"]["last_timestamp"].to_i
             trades["trades"]["entries"].each do |trade|
                 if trade[0].to_i >= initial_timestamp then
-                    trades_list.push(trade[1].to_f*trade[2].to_f)
+                    trades_list.push(trade[1].to_f * trade[2].to_f)
                 end
             end
         end
-        highest_trade = trades_list.sort.reverse![0]
+        highest_trade = trades_list.sort.reverse[0]
         return highest_trade
     end
 
