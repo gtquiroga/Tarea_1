@@ -7,31 +7,40 @@ class Template
             <html>
             <head><title>Tarea</title></head>
             <style>
+            h1 {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            p {
+                font-family: Arial, Helvetica, sans-serif;
+            }
             .custom_table {
             font-family: Arial, Helvetica, sans-serif;
             border-collapse: collapse;
-            width: 100%;
+            width: 80%;
+            border-r
             }
             .custom_table td, table th {
-            border: 1px solid DarkGrey;
+            border: 1px solid FloralWhite;
             padding: 8px;
             }
 
-            .custom_table tr:nth-child(even){background-color: Gainsboro;}
+            .custom_table tr:nth-child(even){background-color: GhostWhite;}
 
-            .custom_table  tr:hover {background-color: DarkGrey;}
+            .custom_table  tr:hover {background-color: LightGreen;}
 
             .custom_table  th {
             padding-top: 12px;
             padding-bottom: 12px;
             text-align: left;
-            background-color: MediumBlue;
+            background-color: ForestGreen;
             color: white;
             }
             </style>
             <body>
                 <h1>Tarea Platanus</h1>
-                <h3>Transaccion de mayor valor ultimas 24 hrs</h3>
+                <p>
+                Transacciones de mayor valor de las ultimas 24 hrs en la plataforma de Buda
+                </p>
                 <table class="custom_table">
                 <tr>
                     <th>Id mercado</th>
